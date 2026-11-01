@@ -1,0 +1,8 @@
+[
+ {"doc_id":"faq-password","classification":"public","text":"Mobile banking password reset: open Settings, select Reset Password, and follow identity verification. Never share one-time codes."},
+ {"doc_id":"faq-mortgage","classification":"public","text":"Mortgage applications require independent underwriting. Interest signals do not establish eligibility or approval."},
+ {"doc_id":"policy-partner","classification":"internal","text":"Mortgage partner sharing requires approved contracts, explicit applicable consent, data minimization and compliance review. Do not share raw customer profiles."},
+ {"doc_id":"policy-alert","classification":"internal","text":"Fraud alert rules trigger human investigation; an alert alone is not proof of wrongdoing. Maintain audit trails and review outcomes."},
+ {"doc_id":"hr-leave","classification":"internal_hr","text":"Employees request leave through the HR portal. Managers approve leave under the published HR policy."},
+ {"doc_id":"hr-training","classification":"internal_hr","text":"Annual compliance training completion is monitored by HR using the governed training completion rate."}
+]

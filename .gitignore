@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.env
+artifacts/
+data/generated/
+data/delta/
+.pytest_cache/

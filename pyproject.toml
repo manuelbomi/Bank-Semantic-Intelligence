@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "bank-semantic-intelligence"
+version = "0.1.0"
+requires-python = ">=3.10"
+description = "Synthetic enterprise bank knowledge graph and governed GraphRAG lab"
+[project.optional-dependencies]
+full = ["duckdb>=1,<2", "splink>=4,<5", "neo4j>=5,<7", "deltalake>=0.20,<2", "pyarrow>=15", "fastapi>=0.110", "uvicorn>=0.29"]
+vector = ["chromadb>=0.5,<2", "sentence-transformers>=3,<6"]
+postgres = ["psycopg[binary]>=3,<4"]
+[project.scripts]
+bank-semantic = "bank_semantic.cli:main"
+[tool.setuptools.packages.find]
+include = ["bank_semantic*"]

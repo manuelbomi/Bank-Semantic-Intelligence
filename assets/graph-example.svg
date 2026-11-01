@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" role="img" aria-label="Example banking knowledge graph">
+<style>text{font-family:Arial,sans-serif;fill:#17324d}.edge{stroke:#7790a8;stroke-width:3}.n{fill:#e0efff;stroke:#7da9d8;stroke-width:2}.g{fill:#ddf5e9;stroke:#76b89b;stroke-width:2}.p{fill:#f2e6ff;stroke:#b799d3;stroke-width:2}.t{font-size:19px;font-weight:bold}.s{font-size:15px}</style>
+<rect width="900" height="330" fill="#fafcff"/><path class="edge" d="M195 155H350M535 155H695M450 192V260"/><text x="267" y="140" class="s" text-anchor="middle">OWNS</text><text x="616" y="140" class="s" text-anchor="middle">HAS_TRANSACTION</text><text x="520" y="235" class="s">TRIGGERED_ALERT</text>
+<rect class="n" x="30" y="115" width="165" height="80" rx="12"/><text class="t" x="112" y="147" text-anchor="middle">Customer 42</text><text class="s" x="112" y="172" text-anchor="middle">Customer</text>
+<rect class="g" x="350" y="115" width="185" height="80" rx="12"/><text class="t" x="442" y="147" text-anchor="middle">Checking</text><text class="s" x="442" y="172" text-anchor="middle">Account</text>
+<rect class="p" x="695" y="115" width="175" height="80" rx="12"/><text class="t" x="782" y="147" text-anchor="middle">Transfer</text><text class="s" x="782" y="172" text-anchor="middle">Transaction</text>
+<rect class="p" x="340" y="260" width="220" height="56" rx="12"/><text class="t" x="450" y="294" text-anchor="middle">Review alert</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 850" role="img" aria-label="Bank Semantic Intelligence architecture diagram">
+<style>text{font-family:Arial,sans-serif;fill:#1d3554}.heading{font-size:26px;font-weight:bold}.label{font-size:19px;font-weight:bold}.sub{font-size:14px}.line{stroke:#56738c;stroke-width:2.5;fill:none}.blue{fill:#dbeafe;stroke:#79a7df;stroke-width:2}.green{fill:#d8f3e7;stroke:#6bb89a;stroke-width:2}.purple{fill:#efe2fa;stroke:#b596d6;stroke-width:2}.orange{fill:#ffe8c9;stroke:#d6a560;stroke-width:2}</style>
+<rect x="5" y="5" width="1070" height="840" rx="22" fill="#fafcff" stroke="#cbd5e1"/>
+<text x="540" y="44" text-anchor="middle" class="heading">Bank Customer 360 — Semantic Intelligence Architecture</text>
+<g class="blue"><rect x="45" y="75" width="225" height="75" rx="12"/><rect x="300" y="75" width="225" height="75" rx="12"/><rect x="555" y="75" width="225" height="75" rx="12"/><rect x="810" y="75" width="225" height="75" rx="12"/></g>
+<g text-anchor="middle"><text x="157" y="105" class="label">PostgreSQL</text><text x="157" y="127" class="sub">Customers · Accounts</text><text x="412" y="105" class="label">Delta Lake</text><text x="412" y="127" class="sub">Reviews · App events</text><text x="667" y="105" class="label">CRM / Kafka</text><text x="667" y="127" class="sub">Profiles · Events</text><text x="922" y="105" class="label">Policies / HR</text><text x="922" y="127" class="sub">Docs · Training</text></g>
+<path class="line" d="M157 150V174H540V196 M412 150V174 M667 150V174 M922 150V174H540"/>
+<rect x="170" y="196" width="740" height="95" rx="14" class="blue"/>
+<text x="540" y="231" class="label" text-anchor="middle">Ingestion &amp; Processing</text><text x="540" y="258" class="sub" text-anchor="middle">Source contracts · Spark / Databricks · CDC · Delta CDF · Validation</text>
+<path class="line" d="M540 291V323"/>
+<rect x="170" y="323" width="740" height="125" rx="14" class="green"/>
+<text x="540" y="360" class="label" text-anchor="middle">Semantic Intelligence Layer</text>
+<text x="540" y="390" class="sub" text-anchor="middle">Splink identity resolution · Ontology · Governed metrics · Provenance</text>
+<text x="540" y="415" class="sub" text-anchor="middle">LLM-assisted extraction · Candidate review · Access policies</text>
+<path class="line" d="M540 448V475H172V501 M540 475V501 M908 475V501H540"/>
+<g class="purple"><rect x="45" y="501" width="255" height="83" rx="12"/><rect x="412" y="501" width="255" height="83" rx="12"/><rect x="780" y="501" width="255" height="83" rx="12"/></g>
+<g text-anchor="middle"><text x="172" y="532" class="label">SQL / Delta</text><text x="172" y="555" class="sub">Governed structured facts</text><text x="540" y="532" class="label">Vector Search</text><text x="540" y="555" class="sub">FAQs · Policies · Content</text><text x="908" y="532" class="label">Neo4j</text><text x="908" y="555" class="sub">Entity relationships</text></g>
+<path class="line" d="M172 584V610H540V634 M540 584V634 M908 584V610H540"/>
+<rect x="170" y="634" width="740" height="87" rx="14" class="orange"/>
+<text x="540" y="665" class="label" text-anchor="middle">Governed GraphRAG &amp; Services</text><text x="540" y="690" class="sub" text-anchor="middle">Role checks · Hybrid retrieval · Context assembly · Citations · Evaluation</text>
+<path class="line" d="M540 721V743H165V758 M540 743V758 M915 743V758H540"/>
+<g class="blue"><rect x="40" y="758" width="250" height="60" rx="12"/><rect x="415" y="758" width="250" height="60" rx="12"/><rect x="790" y="758" width="250" height="60" rx="12"/></g>
+<g text-anchor="middle" class="label"><text x="165" y="793">Mobile / Service</text><text x="540" y="793">Risk / HR / Audit</text><text x="915" y="793">CEO / Analysts</text></g>
+</svg>
